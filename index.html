@@ -4,7 +4,7 @@
     <meta charset="UTF-8"></meta>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
     <title>R-s H-p MovieS</title>
-
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
     <!-- Chrome, Firefox OS and Opera -->
     <meta content="#eeeeee" name="theme-color"></meta>
@@ -13,7 +13,51 @@
     <meta content="blogger" name="generator"></meta>
     <link href="https://r-s-h-p.blogspot.com/favicon.ico" rel="icon" type="image/x-icon"></link>
 
-<!Script-for-ads>    
+<!Script-for-ads>  
+
+<style>
+        
+            
+.dropbtn {
+  background-color: #3fff2d;
+  font-weight: bold;
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  
+  display: none;
+  position: absolute;
+  background-color: #3fff2d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-weight: bold;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #0ff;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #0ff;}
+</style>  
+
+
 
     <style>
         body {
@@ -133,9 +177,34 @@
   
   
 <nav>
-    <a class="neon-text"; href="#" style="color: #3fff2d;">Home</a>
-    <a class="neon-text"; href="#" style="color: #3fff2d;">About</a>
-    <a class="neon-text"; href="#" style="color: #3fff2d;">Contact</a>
+
+	<div class="dropdown">
+	<button class="dropbtn";"neon-button" onclick="sound()">Indian</button>
+    <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+	
+	<div class="dropdown">
+	<button class="dropbtn";"neon-button" onclick="sound()">Bangali</button>
+    <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+	
+	
+	<div class="dropdown">
+	<button class="dropbtn";"neon-button" onclick="sound()">South Indian</button>
+    <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
 </nav>
 
 <br />
